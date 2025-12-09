@@ -33,3 +33,23 @@ body{
     height: 100%;
     display: block;
 }
+menu{
+    display:flex;
+    align-items:flex;
+    gap: 20px;
+}
+.lista-menu{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+.lista-menu li a{
+    color: white;
+    text-decoration:none;
+    font-size: 16 px;
+
+}
+.lista-menu li a:hover{
+    color: #ffcc00
+}
